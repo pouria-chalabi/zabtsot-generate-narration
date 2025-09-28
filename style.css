@@ -1,0 +1,154 @@
+      @font-face {
+        font-family: kalameh;
+        src: url(https://zabtsot.com/wp-content/uploads/2025/02/KalamehWeb_Regular.ttf);
+      }
+      .koli{
+        font-family: kalameh;
+        font-size: 20px;
+      }
+      .container{
+        margin: 5% 10% 0px 0px ;
+        height: 50vh
+      }
+
+      audio {
+        width: 90%;
+      }
+
+      .group {
+        display: flex;
+        flex-direction: row;
+        gap: 1.35rem;
+        margin-bottom: 25px;
+      }
+      @media only screen and (max-width: 600px) {
+        .group {
+          display: flex;
+          flex-direction: column;
+        }
+        .group,
+      label {
+        align-items: right;
+      }
+      .group,
+      input {
+        width: 100% !important;
+      } 
+
+      input,
+      select {
+        width: 50% !important;
+    
+      }
+      #finaldiv {
+        display: flex;
+        flex-direction: column;
+        
+    }
+      }
+
+       .group,
+      input {
+        width: 52rem;
+      } 
+
+      .group,
+      label {
+        align-items: center;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+
+      input,
+      select {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      button {
+        padding: 10px 20px;
+        margin: 0rem 0rem 0.5rem -1.1rem;
+        background-color: #ef6422;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      
+
+      button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+      }
+      /* Center the spinner on the page */
+      #spinner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        align-items: center;
+        background-color: #ef6322d8;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      /* Spinner animation style */
+      .loader {
+        border: 12px solid #f3f3f3; /* Light grey */
+        border-top: 12px solid #ef6422;
+        border-radius: 50%;
+        width: 80px;
+        height: 80px;
+        animation: spin 1.5s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .radio {
+        display: flex;
+      }
+
+      .radio,
+      label {
+        width: 12rem;
+      }
+
+      .toast {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #ff4444;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        display: none;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      
+      #finaldiv {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+      }
+  
